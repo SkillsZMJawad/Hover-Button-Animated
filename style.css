@@ -1,0 +1,34 @@
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+.hoverme{
+  height: 120px;
+  font-size: 32px;
+  width: 200px;
+  color: black;
+  border: 3px solid  black;
+  background:aqua;
+  transition: 0.9s;
+  border-radius: 30px 0px 30px 0px;
+  box-shadow: 0px 0px 50px 50px whitesmoke;
+}
+.hoverme:hover{
+  transform:rotate(360deg);
+  transform: rotate(360deg);
+  background: linear-gradient(fuchsia,red,deeppink);
+  border-bottom-color: white;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  height: 150px;
+  width: 230px;
+  transition: 0.9s;
+  color: white;
+  box-shadow:50px 50px 0px 0px yellow;
+  border-radius: 0px 30px 0px 30px;
+}
